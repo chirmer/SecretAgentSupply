@@ -1,0 +1,35 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header .content-container img {
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.content-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.white {
+  color: white;
+}
