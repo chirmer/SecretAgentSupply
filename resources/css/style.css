@@ -9,12 +9,38 @@ header .content-container img {
   margin-right: 1rem;
 }
 
+header span {
+  padding: .66rem 0;
+}
+
+#img-header section {
+  padding: 2rem 3rem;
+  width: 20rem;
+  margin-left: 0;
+}
+
+#img-header section p {
+  margin-bottom: 0.25rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
 .flex {
   display: flex;
 }
 
 .align-center {
   align-items: center;
+}
+
+.align-stretch {
+  align-items: stretch;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .uppercase {
@@ -26,10 +52,22 @@ header .content-container img {
 }
 
 .content-container {
-  max-width: 960px;
+  width: 960px;
   margin: 0 auto;
 }
 
 .white {
   color: white;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#img-header {
+  height: 25rem;
+  background-image: url("../img/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
