@@ -13,6 +13,10 @@ header span {
   padding: .66rem 0;
 }
 
+header nav a {
+  padding: .75rem 0;
+}
+
 #img-header section {
   padding: 2rem 3rem;
   width: 20rem;
@@ -43,12 +47,20 @@ h1 {
   justify-content: flex-start;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
 
 .bg-black {
   background-color: black;
+}
+
+.bg-red {
+  background-color: firebrick;
 }
 
 .content-container {
